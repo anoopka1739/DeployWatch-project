@@ -1,0 +1,10 @@
+region                   = "ap-south-1"
+vpc_cidr                 = "10.2.0.0/16"
+availability_zones       = ["ap-south-1a", "ap-south-1b"]
+eks_public_subnets_cidrs = ["10.2.1.0/24", "10.2.2.0/24"]
+eks_private_subnets_cidr = ["10.2.11.0/24", "10.2.12.0/24"]
+eks_cluster_version      = "1.37"
+project_name             = "deploy-watch"
+allowed_ssh_cidr         = "157.51.244.180/32"
+bastion_instance_type    = "t3.micro"
+eks_node_instance_type   = "t3.medium"
